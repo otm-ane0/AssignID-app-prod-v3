@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev/svgjs" width="220" height="215"><svg width="220" height="215" viewBox="0 0 220 215" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="220" height="215" rx="15" fill="#055491"></rect>
+<path d="M33.0475 177.78C32.5167 51.7959 188.135 45.8172 188.694 178.326" stroke="#FBFBFC" stroke-width="17.1361"></path>
+<path d="M65.8893 95.0744C56.1194 6.2249 169.405 7.53343 158.601 95.4129" stroke="#FBFBFC" stroke-width="16.1841"></path>
+<circle cx="92.0244" cy="160.415" r="17.6121" fill="#FBFBFC"></circle>
+<circle cx="136.768" cy="160.415" r="17.6121" fill="#FBFBFC"></circle>
+</svg><style>@media (prefers-color-scheme: light) { :root { filter: none; } }
+@media (prefers-color-scheme: dark) { :root { filter: none; } }
+</style></svg>

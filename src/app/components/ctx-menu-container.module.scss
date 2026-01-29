@@ -1,0 +1,65 @@
+.ctx_menu_bg {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: transparent;
+    //background-color: rgba(0, 0, 0, 0.05);
+    z-index: 10000000;
+  }
+  .ctx_menu_container {
+    position: fixed;
+    display: inline-block;
+    background-color: transparent;
+    z-index: 10000001;
+    animation-name: ctxMenuAnimation;
+    animation-duration: 0.1s;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in-out;
+    @media (max-width: 599px) {
+      &.mobileStyle {
+        left: 50% !important;
+        top: 50% !important;
+        transform: translate(-50%, -50%) !important;
+        animation-name: mobileCtxMenuAnimation;
+      }
+    }
+  }
+  .pinCtxMenu {
+    background-color: transparent;
+    &:active {
+      background-color: hsla(0, 0%, 70%, 0.05);
+    }
+  }
+  @keyframes ctxMenuAnimation {
+    0% {
+      opacity: 0;
+      //transform: translate(0px, -10px);
+    }
+    1% {
+      opacity: 0;
+      //transform: translate(0px, -10px);
+    }
+    100% {
+      opacity: 1;
+      //transform: translate(0px, 0px);
+    }
+  }
+  @keyframes mobileCtxMenuAnimation {
+    0% {
+      opacity: 0;
+      //transform: translate(-50%, calc(-50% - 20px)) !important;
+    }
+    1% {
+      opacity: 0;
+      //transform: translate(-50%, calc(-50% - 20px)) !important;
+    }
+    100% {
+      opacity: 1;
+      //transform: translate(-50%, -50%) !important;
+    }
+  }
+  

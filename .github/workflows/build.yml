@@ -1,0 +1,23 @@
+name: Build test
+
+on:
+  push:
+    branches:
+      - mukhya
+  pull_request:
+    branches:
+      - mukhya
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Install npm modules
+        run: npm install
+
+      - name: Build app
+        run: npm run build
