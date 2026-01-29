@@ -11,7 +11,7 @@
     "db:push": "npx prisma db push",
     "next:dev": "npx next dev",
     "next:build": "npx next build",
-    "build": "tsc -p ./tsconfig.json",
+    "build": "next build",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
     "lint:fix": "eslint . --ext .js,.jsx,.ts,.tsx --fix",
     "format": "prettier --write ."
